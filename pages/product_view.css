@@ -1,0 +1,93 @@
+ 
+  /* Style the body */
+  body {
+    font-family: Arial;
+    background: #f3f2f2;
+}
+
+  /* Header/logo Title */
+.header {
+    display: flex;
+    align-items: center;
+	justify-content: space-between;
+	padding: 15px 9%;
+	box-shadow: 0px 0.1px 1px #888888;
+    background: #fff;
+    color: black;
+}
+
+.header .logo{
+	font-size:24px;
+	font-weight:bolder;
+	color: black;
+}
+
+.header .logo:hover{
+	text-decoration: none;
+	color: #FFA559;
+}
+
+
+.header .logo{
+	font-size:24px;
+	font-weight:bolder;
+}
+.header .icons a{
+	height: 35px;
+	width: 35px;
+	line-height: 35px;
+	border-radius: 5px;
+}
+.header .icons a .btn{
+	border: 0px solid;
+	background-color: #eee;
+	color: black;
+	font-size: 16px;
+	cursor:pointer;
+}
+
+.header .icons a .btn:hover{
+	background-color: black;
+	color: white;
+}
+
+/* Style the navBar links */
+.navBar {
+	display: flex;
+	justify-content:space-between;
+	padding: 0px 9%;
+	overflow: hidden;
+	background-color: #fff;
+	box-shadow: 0px 0.1px 1px #888888;
+	margin-bottom: 25px;
+}
+
+.navBar a {
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 45px;
+	text-decoration: none;
+}
+
+.navBar a:hover {
+	background-color: #ddd;
+	text-decoration: none;
+	color: black;
+}
+
+.footer{
+	margin-top:10px;
+	background-color: #ddd;
+	height: 150px;
+	margin-left: 9%;
+	margin-right: 9%;
+}
+.footer h3{
+	font-size: 20px;
+	text-align: center;
+	padding: 10px 0;
+}
+
+
